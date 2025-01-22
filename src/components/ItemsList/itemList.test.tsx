@@ -73,7 +73,7 @@ describe("ItemsList", () => {
 
   it("shows the correct counter when active tasks are available", () => {
     render(<ItemsList />)
-    expect(screen.getByText("2 more to do!")).toBeInTheDocument() // 2 active tasks
+    expect(screen.getByText("2 more to do!")).toBeInTheDocument()
   })
 
   it('doesn`t show counter on "completed" tab', () => {
