@@ -7,6 +7,7 @@ export const ItemsContainer = styled.ul`
   flex-direction: column;
   width: 100%;
   max-height: 71vh;
+  min-height: 71vh;
   margin: 0;
   padding: 0px;
   box-sizing: border-box;
@@ -52,4 +53,3 @@ export const InfoMessage = styled.div`
   justify-content: center;
   padding: 48px;
 `
-
