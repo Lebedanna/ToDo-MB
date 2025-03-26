@@ -1,4 +1,5 @@
 # Todo App
+#### Deployed app: https://lebedannamindbox.vercel.app/
 
 This is a simple todo app built with React, where you can add, complete, and delete tasks. 
 App uses Vitest for testing.
@@ -32,4 +33,3 @@ npm run test
 ```bash
 npm run test-ui
 ```
-
